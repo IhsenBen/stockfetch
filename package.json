@@ -1,0 +1,38 @@
+{
+  "name": "stockfetch",
+  "version": "1.0.0",
+  "description": "stock feed",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node  src/server/index.ts",
+    "dev": "ts-node-dev --respawn --transpile-only src/server/index.ts"
+  },
+  "author": "Ihsen Ben Ali",
+  "license": "ISC",
+  "dependencies": {
+    "@stdlib/stats-base-dists-normal-cdf": "^0.2.1",
+    "@trpc/client": "^10.45.2",
+    "@trpc/next": "^10.45.2",
+    "@trpc/react": "^9.27.4",
+    "@trpc/server": "^10.45.2",
+    "@types/cors": "^2.8.17",
+    "@types/date-fns": "^2.6.0",
+    "@types/express": "^4.17.21",
+    "@types/ws": "^8.5.10",
+    "axios": "^1.7.2",
+    "cors": "^2.8.5",
+    "date-fns": "^3.6.0",
+    "express": "^4.19.2",
+    "fs": "^0.0.1-security",
+    "jstat": "^1.9.6",
+    "mathjs": "^13.0.0",
+    "ws": "^8.17.1",
+    "yahoo-finance2": "^2.11.3",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.8",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.5.2"
+  }
+}

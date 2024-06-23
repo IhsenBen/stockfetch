@@ -1,0 +1,6 @@
+./node_modules
+data.json
+stock.json
+node_modules
+package-lock.json
+bun.lockb
