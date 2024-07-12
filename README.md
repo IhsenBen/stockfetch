@@ -1,11 +1,13 @@
-## Have no Idea what I'm doing
+## What is this?
 
-Trying to get an accurate black sholes model estimation with Typescript for european warrants.
-
-## Why?
-
-Learning options pricing, Trpc, and ✨**VolaTility ArBiTrAgE**✨.
+A personal project to help me learn stock options pricing, European warrants and Black–Scholes model.
 
 ## The Plan
 
-Provide a reactive form that returns useful live data from a trpc subscption to asses trade republic warrants.
+Hook this to a SPA or a Chrome extension that returns useful live data from a tRPC subscription to asses my trade republic warrants.
+
+## TODO:
+- [] Backtest these functions
+- [] Set up a Scraping Endpoint with Puppeteer or Scraping Bee (unfortunately Trade Republic doesn't provide an API) 
+- [] Build the SPA with Next js, Formik, MUI and Zod
+- [] Containerize it
